@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Tabs */
+.tabbar {
+  display: flex;
+  background: #1a1a1a;
+  padding: 6px;
+  gap: 6px;
+}
+
+.tab {
+  padding: 6px 10px;
+  background: #2a2a2a;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.tab.active {
+  background: #444;
+}
+
+/* Browser */
+.browser {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  background: #111;
+}
+
+input {
+  flex: 1;
+  padding: 6px;
+  background: #222;
+  border: none;
+  color: white;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+}
